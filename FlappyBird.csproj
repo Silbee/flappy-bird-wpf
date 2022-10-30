@@ -8,20 +8,20 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="images\cloud.png" />
-    <None Remove="images\clouds.png" />
-    <None Remove="images\clouds2.png" />
-    <None Remove="images\flappyBird.png" />
-    <None Remove="images\pipeBottom.png" />
-    <None Remove="images\pipeTop.png" />
+    <None Remove="Images\cloud.png" />
+    <None Remove="Images\clouds.png" />
+    <None Remove="Images\clouds2.png" />
+    <None Remove="Images\flappyBird.png" />
+    <None Remove="Images\pipeBottom.png" />
+    <None Remove="Images\pipeTop.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="images\Cloud.png" />
-    <Resource Include="images\Clouds.png" />
-    <Resource Include="images\FlappyBird.png" />
-    <Resource Include="images\PipeBottom.png" />
-    <Resource Include="images\PipeTop.png" />
+    <Resource Include="Images\Cloud.png" />
+    <Resource Include="Images\Clouds.png" />
+    <Resource Include="Images\FlappyBird.png" />
+    <Resource Include="Images\PipeBottom.png" />
+    <Resource Include="Images\PipeTop.png" />
   </ItemGroup>
 
 </Project>

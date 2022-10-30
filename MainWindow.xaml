@@ -7,30 +7,30 @@
 				mc:Ignorable="d"
 				Title="Flappy Bird" SizeToContent="WidthAndHeight">
 	<Canvas Height="240" Width="320" Name="mainCanvas" Background="LightBlue" RenderOptions.BitmapScalingMode="NearestNeighbor">
-		<Image Name="cloud0" Height="24" Width="32" Source="images/Cloud.png" Canvas.Left="50" Canvas.Top="25"/>
-		<Image Name="cloud1" Height="24" Width="48" Source="images/Clouds.png" Canvas.Left="222" Canvas.Top="50"/>
+		<Image Name="cloud0" Height="24" Width="32" Source="/Images/Cloud.png" Canvas.Left="50" Canvas.Top="25"/>
+		<Image Name="cloud1" Height="24" Width="48" Source="/Images/Clouds.png" Canvas.Left="222" Canvas.Top="50"/>
 
 		<Canvas Name="obstacle0" Canvas.Left="100" Canvas.Top="0" Tag="up">
-			<Image Height="160" Width="26" Source="images/PipeBottom.png" Canvas.Top="220"/>
-			<Image Height="160" Width="26" Source="images/PipeTop.png" Canvas.Top="0"/>
+			<Image Height="160" Width="26" Source="/Images/PipeBottom.png" Canvas.Top="220"/>
+			<Image Height="160" Width="26" Source="/Images/PipeTop.png" Canvas.Top="0"/>
 		</Canvas>
 
 		<Canvas Name="obstacle1" Canvas.Left="200" Canvas.Top="0" Tag="up">
-			<Image Height="160" Width="26" Source="images/PipeBottom.png" Canvas.Top="220"/>
-			<Image Height="160" Width="26" Source="images/PipeTop.png" Canvas.Top="0"/>
+			<Image Height="160" Width="26" Source="/Images/PipeBottom.png" Canvas.Top="220"/>
+			<Image Height="160" Width="26" Source="/Images/PipeTop.png" Canvas.Top="0"/>
 		</Canvas>
 
 		<Canvas Name="obstacle2" Canvas.Left="300" Canvas.Top="0" Tag="up">
-			<Image Height="160" Width="26" Source="images/PipeBottom.png" Canvas.Top="220"/>
-			<Image Height="160" Width="26" Source="images/PipeTop.png" Canvas.Top="0"/>
+			<Image Height="160" Width="26" Source="/Images/PipeBottom.png" Canvas.Top="220"/>
+			<Image Height="160" Width="26" Source="/Images/PipeTop.png" Canvas.Top="0"/>
 		</Canvas>
 
 		<Canvas Name="obstacle3" Canvas.Left="400" Canvas.Top="0" Tag="up">
-			<Image Height="160" Width="26" Source="/images/PipeBottom.png" Canvas.Top="220"/>
-			<Image Height="160" Width="26" Source="/images/PipeTop.png" Canvas.Top="0"/>
+			<Image Height="160" Width="26" Source="/Images/PipeBottom.png" Canvas.Top="220"/>
+			<Image Height="160" Width="26" Source="/Images/PipeTop.png" Canvas.Top="0"/>
 		</Canvas>
 
-		<Image Name="flappyBird"  Height="12" Width="18" Source="images/FlappyBird.png" Canvas.Left="25" Canvas.Top="114"/>
+		<Image Name="flappyBird"  Height="12" Width="18" Source="/Images/FlappyBird.png" Canvas.Left="25" Canvas.Top="114"/>
 		<Label Name="scoreLabel" FontFamily="Comic Sans MS" Content="Score: 0"/>
 	</Canvas>
 </Window>
